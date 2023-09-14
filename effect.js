@@ -55,9 +55,9 @@ $('document').ready(function () {
         });
     });
     $('#play2').click(function () {
-        var audio1 = $('.song1')[0];
+        /*var audio1 = $('.song1')[0];
         audio.pause();
-        audio1.play();
+        audio1.play();*/
         $(this).fadeOut('slow').delay(time).promise().done(function () {
             $('#bannar_coming').fadeIn('slow');
         });
